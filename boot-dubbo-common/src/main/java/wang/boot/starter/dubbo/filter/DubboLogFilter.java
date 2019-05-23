@@ -26,7 +26,7 @@ import java.lang.reflect.Method;
 @Activate(group = Constants.PROVIDER,order = -1)
 public class DubboLogFilter implements Filter {
 
-    private static final String FILTER_PROPERTY = "dubbo.log-filter.default";
+    private static final String FILTER_PROPERTY = "wang.boot.starter.dubbo.log-filter.default";
 
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {

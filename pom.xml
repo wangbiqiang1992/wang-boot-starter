@@ -9,6 +9,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>wang-boot-dubbo-starter</module>
+        <module>wang-boot-dubborest-starter</module>
+        <module>boot-dubbo-common</module>
     </modules>
     <packaging>pom</packaging>
     <name>wang-boot-starter</name>
